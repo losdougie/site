@@ -1,0 +1,31 @@
+{% extends "shared/_layout.html" %}
+{% block main_content %}
+<H3>Folder Structure</H3>
+<p>
+    <pre>
+    Folder Structure:
+    -site
+        -infra
+            view_modifiers.py
+        -services
+        -static
+            -js
+            -css
+                site.css
+            -img
+        -templates
+            -home
+
+            -shared
+                _layout.html
+        -[venv]
+        -views
+            home_views.py
+        [.gitignore]
+        app.py
+        [notes.txt]
+        requirements.txt
+        [requirements-dev.txt]
+    </pre>
+</p>
+{% endblock %}

@@ -1,0 +1,23 @@
+Folder Structure:
+-site
+    -infra
+        view_modifiers.py
+    -services
+    -static
+        -js
+        -css
+            site.css
+        -img
+    -templates
+        -home
+
+        -shared
+            _layout.html
+    -[venv]
+    -views
+        home_views.py
+    [.gitignore]
+    app.py
+    [notes.txt]
+    requirements.txt
+    [requirements-dev.txt]
